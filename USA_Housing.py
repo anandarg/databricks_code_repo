@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+#read the data from csv file
 df=pd.read_csv('USA_Housing.csv')
 df.info()
 df.describe()
